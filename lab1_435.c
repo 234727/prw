@@ -38,6 +38,7 @@ void main(int argc, char *argv[])
 			int steps = atoi(argv[i+2]);
 			sprintf(buff,"./lab1_434a %d %d", i, steps);
 			system(buff);
+			exit(i+1);
 		}
 	}
 	
